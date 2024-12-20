@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.section img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section .text {
+    flex: 1;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    text-align: justify;
+}
